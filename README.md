@@ -153,18 +153,18 @@ content-based filtering when collaborative filtering fails.
 ```python
 recommend_movies(user_id=1, n=10)
 
-**Example Output**
+## Example Output
 - The Shawshank Redemption (1994)
 - The Godfather (1972)
 - Casablanca (1942)
 - Rear Window (1954)
 - Lawrence of Arabia (1962)
 
-**🆕 Cold-Start Recommendation (New User)**
+## 🆕 Cold-Start Recommendation (New User)
 
 cold_start_recommend(n=10)  # Returns the most popular and highly rated movies.
 
-**🎭 Genre + Liked Movie Based Recommendation**
+## 🎭 Genre + Liked Movie Based Recommendation
 
 recommend_movies_genre_and_liked(
     liked_titles=["Inception (2010)", "The Dark Knight (2008)"],
@@ -172,7 +172,7 @@ recommend_movies_genre_and_liked(
     n=10
 )                    # This mimics real-world user preference based recommendation.
 
-**🧩 Hybrid Recommendation Logic**
+## 🧩 Hybrid Recommendation Logic
 
 - If user history exists → Use Surprise SVD
 - If SVD prediction unavailable → Use Genre-Based Content Filtering
