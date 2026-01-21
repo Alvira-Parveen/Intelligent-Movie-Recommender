@@ -150,7 +150,7 @@ content-based filtering when collaborative filtering fails.
 
 ### 🎯 Recommendation for an Existing User
 
-```python
+PYTHON CODE 
 recommend_movies(user_id=1, n=10)
 
 ## Example Output
@@ -207,6 +207,14 @@ The final system is: Research-oriented
 - Deep learning based recommenders
 - User feedback loop
 - API deployment (FastAPI / Flask)
+
+---
+
+## 🛠️ Installation & Usage
+pip install -r requirements.txt
+
+Open notebooks in order:
+jupyter notebook
 
 ---
 
